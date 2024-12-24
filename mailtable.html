@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f7fc;
+        display: flex;
+        justify-content: center;
+      }
+      .table {
+        background-color: #ffffff;
+        padding: 30px;
+        width: 80%;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+        font-size: 16px;
+      }
+      th,
+      td {
+        padding: 12px;
+        border: 1px solid #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="table">
+      <h2>Product Performance Report</h2>
+      <table>
+        <tr>
+          <th style="background-color: rgb(216, 194, 239)" rowspan="2">
+            Product
+          </th>
+          <th style="background-color: rgb(170, 245, 209)" colspan="3">
+            Quarterly Sales (in $)
+          </th>
+          <th style="background-color: rgb(170, 245, 209)" colspan="2">
+            Customer Feedback
+          </th>
+        </tr>
+        <tr>
+          <th style="background-color: rgb(236, 236, 236)">Q1</th>
+          <th style="background-color: rgb(236, 236, 236)">Q2</th>
+          <th style="background-color: rgb(236, 236, 236)">Q3</th>
+          <th style="background-color: rgb(236, 236, 236)">Average Rating</th>
+          <th style="background-color: rgb(236, 236, 236)">Top Comment</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Laptops</td>
+          <td>25,000</td>
+          <td>30,000</td>
+          <td>28,500</td>
+          <td>4.7</td>
+          <td>"High performance and sleek design"</td>
+        </tr>
+        <tr>
+          <td style="background-color: rgb(236, 236, 236)">22,500</td>
+          <td style="background-color: rgb(236, 236, 236)">29,000</td>
+          <td style="background-color: rgb(236, 236, 236)">27,000</td>
+          <td style="background-color: rgb(236, 236, 236)">4.6</td>
+          <td style="background-color: rgb(236, 236, 236)">
+            "Great battery life but a bit pricey"
+          </td>
+        </tr>
+        <tr>
+          <td>Smartphones</td>
+          <td>40,000</td>
+          <td>42,000</td>
+          <td>41,000</td>
+          <td>4.8</td>
+          <td>"User-friendly and value for money"</td>
+        </tr>
+        <tr>
+          <td>Headphones</td>
+          <td style="background-color: rgb(236, 236, 236)">15,000</td>
+          <td style="background-color: rgb(236, 236, 236)">18,000</td>
+          <td style="background-color: rgb(236, 236, 236)">17,000</td>
+          <td style="background-color: rgb(236, 236, 236)">4.5</td>
+          <td style="background-color: rgb(236, 236, 236)">
+            "Excellent sound quality, but needs better durability"
+          </td>
+        </tr>
+        <tr>
+          <th>Total</th>
+          <td>102,500</td>
+          <td>119,000</td>
+          <td>114,000</td>
+          <td colspan="2">Overall Feedback: Positive</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
